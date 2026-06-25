@@ -1,1 +1,1 @@
-GitHub Pages ready. Upload all files and keep assets/images folder unchanged.
+Upload all files and folders exactly as provided. Keep assets/images folder unchanged.
