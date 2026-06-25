@@ -3,314 +3,228 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kaskar Car Rental offers self-drive automatic and manual cars for local trips, weddings, outstation travel and daily rentals in Chiplun, Maharashtra." />
-  <meta name="keywords" content="Kaskar Car Rental, car rental Chiplun, self drive car rental, rental cars Chiplun, wedding car rental, outstation car rental" />
-  <meta name="author" content="Kaskar Car Rental" />
-  <title>Kaskar Car Rental | Self Drive Cars in Chiplun</title>
 
-  <link rel="preconnect" href="https://images.unsplash.com">
+  <title>Kaskar Car Rental | Self Drive Cars in Chiplun</title>
+  <meta name="description" content="Kaskar Car Rental offers self-drive automatic cars, wedding cars, daily service and Chiplun to Mumbai travel support." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="site-header" id="siteHeader">
-    <nav class="nav container" aria-label="Main navigation">
-      <a href="#home" class="brand" aria-label="Kaskar Car Rental Home">
-        <span class="brand-mark">K</span>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo" aria-label="Kaskar Car Rental">
+        <span class="logo-icon">K</span>
         <span>
           <strong>Kaskar</strong>
           <small>Car Rental</small>
         </span>
       </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
 
-      <div class="nav-links" id="navLinks">
+      <div class="nav-menu" id="navMenu">
         <a href="#home">Home</a>
-        <a href="#cars">Cars</a>
+        <a href="#fleet">Cars</a>
         <a href="#services">Services</a>
         <a href="#gallery">Gallery</a>
-        <a href="#why-us">Why Us</a>
+        <a href="#why">Why Us</a>
         <a href="#contact">Contact</a>
         <a class="nav-cta" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
       </div>
     </nav>
   </header>
 
-  <main id="main">
-    <section class="hero section-pad" id="home">
+  <main>
+    <section class="hero" id="home">
       <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="eyebrow">Self Drive Car Rental • Chiplun</span>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Self Drive Car Rental • Chiplun</p>
           <h1>Drive Your Freedom <span>with Kaskar Car Rental</span></h1>
-          <p>Self-drive automatic cars, wedding cars, daily service and Chiplun to Mumbai travel support with Kaskar Car Rental.</p>
+          <p class="hero-text">Self-drive automatic cars, wedding cars, daily service and Chiplun to Mumbai travel support with clean and well-maintained vehicles.</p>
 
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
-            <a class="btn btn-secondary" href="#cars">View Our Cars</a>
+          <div class="hero-buttons">
+            <a class="btn btn-red" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
+            <a class="btn btn-outline" href="#fleet">View Our Cars</a>
           </div>
 
-          <div class="trust-strip" aria-label="Trust indicators">
+          <div class="trust-points">
             <span>Local Business</span>
-            <span>Insured Vehicles</span>
+            <span>Well Maintained</span>
             <span>Easy Booking</span>
-            <span>Clean Cars</span>
+            <span>Self Drive</span>
           </div>
         </div>
 
-        <div class="hero-visual reveal">
-          <div class="road-lines" aria-hidden="true"></div>
-          <div class="trusted-badge">★ Trusted by Local Customers</div>
-          <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental actual fleet in Chiplun" loading="eager" />
+        <div class="hero-image reveal">
+          <div class="badge">Trusted by Local Customers</div>
+          <img src="./assets/images/fleet-service.jpg" alt="Kaskar Car Rental actual fleet in Chiplun" />
         </div>
       </div>
     </section>
 
-    <section class="trust section-pad-sm" aria-label="Kaskar advantages">
+    <section class="trust-section">
+      <div class="container trust-grid reveal">
+        <div><strong>Clean Cars</strong><span>Well maintained vehicles</span></div>
+        <div><strong>Automatic Cars</strong><span>Ciaz & i10 Nios available</span></div>
+        <div><strong>Affordable Rental</strong><span>Clear rental options</span></div>
+        <div><strong>Safe & Reliable</strong><span>Trusted local service</span></div>
+        <div><strong>Daily Service</strong><span>Chiplun to Mumbai support</span></div>
+        <div><strong>Wedding Cars</strong><span>Cars for special functions</span></div>
+      </div>
+    </section>
+
+    <section class="section fleet" id="fleet">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Built for confidence</span>
-          <h2>Everything you expect from a professional car rental service.</h2>
+        <div class="section-title center reveal">
+          <p class="eyebrow">Our Fleet</p>
+          <h2>Cars available with Kaskar Car Rental</h2>
+          <p>Actual fleet includes Ertiga, XL6, Ciaz and Grand i10 Nios for self drive, weddings, family trips and daily service.</p>
         </div>
 
-        <div class="trust-cards">
-          <article class="trust-card reveal"><div class="mini-icon">✓</div><h3>Clean Cars</h3><p>Sanitized and well-presented vehicles before every handover.</p></article>
-          <article class="trust-card reveal"><div class="mini-icon">A</div><h3>Automatic & Manual</h3><p>Choose the drive type that suits your comfort and route.</p></article>
-          <article class="trust-card reveal"><div class="mini-icon">₹</div><h3>Affordable Rental</h3><p>Clear pricing options for daily, local and outstation use.</p></article>
-          <article class="trust-card reveal"><div class="mini-icon">S</div><h3>Insured</h3><p>Vehicles maintained with safety and documentation in mind.</p></article>
-          <article class="trust-card reveal"><div class="mini-icon">24</div><h3>24x7 Support</h3><p>Fast help when you need assistance during your booking.</p></article>
-          <article class="trust-card reveal"><div class="mini-icon">↗</div><h3>Local & Outstation</h3><p>Perfect for Chiplun city use, family trips and long drives.</p></article>
+        <div class="fleet-layout">
+          <article class="fleet-feature reveal">
+            <img src="./assets/images/automatic-cars.jpg" alt="Ciaz and i10 Nios automatic cars available for self drive" />
+            <div>
+              <h3>Automatic Cars</h3>
+              <p>Ciaz and i10 Nios available for self drive in Chiplun.</p>
+            </div>
+          </article>
+
+          <div class="fleet-list reveal">
+            <div class="car-row">
+              <strong>Maruti Ciaz</strong>
+              <span>5 Seats • Automatic • Self Drive</span>
+            </div>
+            <div class="car-row">
+              <strong>Grand i10 Nios</strong>
+              <span>5 Seats • Automatic • City Drive</span>
+            </div>
+            <div class="car-row">
+              <strong>Ertiga</strong>
+              <span>7 Seats • Family Trips • Wedding Use</span>
+            </div>
+            <div class="car-row">
+              <strong>XL6</strong>
+              <span>6 Seats • Premium Family Travel</span>
+            </div>
+
+            <a class="btn btn-red full-btn" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="cars section-pad" id="cars">
+    <section class="section services" id="services">
       <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow">Our Fleet</span>
-          <h2>Choose from our premium cars.</h2>
-          <p>Automatic and manual self-drive cars available for local trips, family travel, weddings and outstation plans.</p>
+        <div class="section-title reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Rental options designed around real customer needs.</h2>
         </div>
 
-        <div class="fleet-grid">
-          <article class="fleet-card reveal">
-            <div class="fleet-image">
-              <img src="https://shivamautozone.com/wp-content/uploads/2024/09/ERTIGA_RED.webp" alt="Red Maruti Ertiga rental car" loading="lazy">
-            </div>
-            <div class="fleet-body">
-              <h3>Ertiga</h3>
-              <span class="tag">Manual / Automatic</span>
-              <ul>
-                <li>7 Seats</li>
-                <li>Petrol</li>
-                <li>Perfect for family trips</li>
-              </ul>
+        <div class="service-grid">
+          <article class="service-card large reveal">
+            <img src="./assets/images/wedding-cars.jpg" alt="Wedding cars available on rent in Chiplun" />
+            <div>
+              <h3>Wedding Cars</h3>
+              <p>Cars available for wedding functions, family movement and special occasions in Chiplun.</p>
             </div>
           </article>
 
-          <article class="fleet-card reveal">
-            <div class="fleet-image">
-              <img src="https://cdn.carhp.in/nexa/maruti_suzuki_ertiga_pearl_metallic_arctic_white.jpg?format=webp&width=800&q=75" alt="White Maruti Ertiga rental car" loading="lazy">
-            </div>
-            <div class="fleet-body">
-              <h3>Ertiga</h3>
-              <span class="tag">Manual / Automatic</span>
-              <ul>
-                <li>7 Seats</li>
-                <li>Petrol</li>
-                <li>Perfect for family and outstation travel</li>
-              </ul>
-            </div>
+          <article class="service-card reveal">
+            <h3>Self Drive Rental</h3>
+            <p>Take the car and drive at your own pace with simple booking support.</p>
           </article>
 
-          <article class="fleet-card reveal">
-            <div class="fleet-image">
-              <img src="https://www.nexaexperience.com/adobe/assets/urn:aaid:aem:918d528f-4d3f-4612-a6f5-ab893889d689/as/XL6-FrontTilted-335x185.png?width=750&id=1&preferwebp=true" alt="Maruti XL6 rental car" loading="lazy">
-            </div>
-            <div class="fleet-body">
-              <h3>XL6</h3>
-              <span class="tag">Automatic / Manual</span>
-              <ul>
-                <li>6 Seats</li>
-                <li>Petrol</li>
-                <li>Perfect for premium family travel</li>
-              </ul>
-            </div>
+          <article class="service-card reveal">
+            <h3>Daily Service</h3>
+            <p>Travel support for Chiplun to Mumbai and regular routes.</p>
           </article>
 
-          <article class="fleet-card reveal">
-            <div class="fleet-image">
-              <img src="https://5.imimg.com/data5/SW/KR/RW/SELLER-21489999/maruti-suzuki-ciaz-diesel-500x500.jpg" alt="Maruti Ciaz rental car" loading="lazy">
-            </div>
-            <div class="fleet-body">
-              <h3>Maruti Ciaz</h3>
-              <span class="tag">Manual</span>
-              <ul>
-                <li>5 Seats</li>
-                <li>Diesel</li>
-                <li>Perfect for business and comfortable travel</li>
-              </ul>
-            </div>
+          <article class="service-card reveal">
+            <h3>Family Trips</h3>
+            <p>Comfortable cars for family trips, outstation plans and functions.</p>
           </article>
 
-          <article class="fleet-card reveal">
-            <div class="fleet-image">
-              <img src="https://imgd.aeplcdn.com/640X480/vimages/202605/4564956_166528_1_1779109267037.jpg?qp=80&fit=true" alt="Grand i10 Nios rental car" loading="lazy">
-            </div>
-            <div class="fleet-body">
-              <h3>Grand i10 Nios</h3>
-              <span class="tag">Manual</span>
-              <ul>
-                <li>5 Seats</li>
-                <li>Petrol</li>
-                <li>Perfect for city drive and daily rental</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-
-        <div class="fleet-cta reveal">
-          <a class="btn btn-primary btn-wide" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
-        </div>
-
-        <div class="real-business-strip reveal" aria-label="Actual Kaskar Car Rental business images">
-          <img src="assets/kaskar-automatic-cars.png" alt="Kaskar automatic cars Ciaz and i10 Nios" loading="lazy">
-          <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental fleet and daily service" loading="lazy">
-          <img src="assets/kaskar-wedding-cars.png" alt="Kaskar wedding cars available in Chiplun" loading="lazy">
-        </div>
-      </div>
-    </section>
-
-    <section class="services section-pad" id="services">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Rental solutions</span>
-          <h2>Designed around how people actually travel.</h2>
-        </div>
-
-        <div class="service-list">
-          <article class="service-item reveal">
-            <img src="assets/kaskar-automatic-cars.png" alt="Kaskar automatic self drive cars" loading="lazy">
-            <div><h3>Self Drive Rental</h3><p>Take control of your trip with flexible self-drive plans for city and outstation travel.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
-          </article>
-
-          <article class="service-item reverse reveal">
-            <img src="assets/kaskar-wedding-cars.png" alt="Kaskar wedding cars available in Chiplun" loading="lazy">
-            <div><h3>Wedding Cars</h3><p>Well-presented cars for wedding functions, guest movement and family requirements.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
-          </article>
-
-          <article class="service-item reveal">
-            <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental fleet for family trips" loading="lazy">
-            <div><h3>Family Trips</h3><p>Spacious options for comfortable travel with family, luggage and complete peace of mind.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
-          </article>
-
-          <article class="service-item reverse reveal">
-            <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental fleet for business travel" loading="lazy">
-            <div><h3>Business Travel</h3><p>Professional rental experience for meetings, client visits and planned business movement.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
-          </article>
-
-          <article class="service-item reveal">
-            <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental airport and daily service" loading="lazy">
-            <div><h3>Airport Pickup</h3><p>Plan convenient car availability for airport pickup, drop and connected travel.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
-          </article>
-
-          <article class="service-item reverse reveal">
-            <img src="assets/kaskar-automatic-cars.png" alt="Kaskar Car Rental outstation trip cars" loading="lazy">
-            <div><h3>Outstation Trips</h3><p>Reliable cars for Konkan routes, weekend plans, family visits and long distance drives.</p><a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Book this service</a></div>
+          <article class="service-card reveal">
+            <h3>Business Travel</h3>
+            <p>Clean and professional vehicles for meetings, office work and city travel.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="process section-pad">
+    <section class="section process">
       <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow">Simple process</span>
-          <h2>Book in minutes. Drive with confidence.</h2>
+        <div class="section-title center reveal">
+          <p class="eyebrow">Booking Process</p>
+          <h2>Simple process. Fast confirmation.</h2>
         </div>
 
         <div class="process-grid">
-          <article class="process-card reveal"><span>01</span><h3>Choose Car</h3><p>Select the car that matches your travel plan.</p></article>
-          <article class="process-card reveal"><span>02</span><h3>Fill Booking Form</h3><p>Share trip dates, contact details and rental needs.</p></article>
-          <article class="process-card reveal"><span>03</span><h3>Availability Confirmation</h3><p>Our team confirms availability and booking details.</p></article>
-          <article class="process-card reveal"><span>04</span><h3>Drive Away</h3><p>Complete handover and enjoy your self-drive journey.</p></article>
+          <div class="process-card reveal"><span>01</span><h3>Choose Car</h3><p>Select the vehicle based on your trip.</p></div>
+          <div class="process-card reveal"><span>02</span><h3>Submit Details</h3><p>Fill trip date, phone number and requirement.</p></div>
+          <div class="process-card reveal"><span>03</span><h3>Confirmation</h3><p>Team confirms availability and pricing.</p></div>
+          <div class="process-card reveal"><span>04</span><h3>Drive Away</h3><p>Complete handover and enjoy your journey.</p></div>
         </div>
       </div>
     </section>
 
-    <section class="gallery section-pad" id="gallery">
+    <section class="section gallery" id="gallery">
       <div class="container">
-        <div class="section-head split reveal">
-          <div>
-            <span class="eyebrow">Instagram gallery</span>
-            <h2>Recent moments from Kaskar Car Rental.</h2>
-          </div>
-          <a class="text-link" href="https://www.instagram.com/kaskar_car_rental_chiplun/" target="_blank" rel="noopener">Follow on Instagram</a>
+        <div class="section-title reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>Actual Kaskar Car Rental updates.</h2>
         </div>
 
-        <div class="insta-grid">
-          <article class="insta-card reveal">
-            <div class="insta-preview">Kaskar Car Rental</div>
-            <h3>Fleet update</h3>
-            <p>View the original post directly on Instagram.</p>
-            <a href="https://www.instagram.com/p/DYdpqUPgpHd/?igsh=YWVmY3Y5MDllbHJk" target="_blank" rel="noopener">View on Instagram</a>
-          </article>
-          <article class="insta-card reveal">
-            <div class="insta-preview">Self Drive Chiplun</div>
-            <h3>Customer travel</h3>
-            <p>See more rental updates and vehicle previews.</p>
-            <a href="https://www.instagram.com/p/DYtlC2HgiyN/?igsh=Y2hwbGFpY3E4ZTZ5" target="_blank" rel="noopener">View on Instagram</a>
-          </article>
-          <article class="insta-card reveal">
-            <div class="insta-preview">Book Your Car</div>
-            <h3>Available cars</h3>
-            <p>Explore cars, trips and latest updates.</p>
-            <a href="https://www.instagram.com/p/DXlEzZpgqdT/?igsh=aHk0cTk3NnIzZTIw" target="_blank" rel="noopener">View on Instagram</a>
-          </article>
+        <div class="gallery-grid">
+          <img src="./assets/images/automatic-cars.jpg" alt="Kaskar automatic cars poster" loading="lazy" />
+          <img src="./assets/images/fleet-service.jpg" alt="Kaskar fleet service poster" loading="lazy" />
+          <img src="./assets/images/wedding-cars.jpg" alt="Kaskar wedding cars poster" loading="lazy" />
         </div>
       </div>
     </section>
 
-    <section class="why section-pad" id="why-us">
+    <section class="section why" id="why">
       <div class="container why-grid">
         <div class="why-image reveal">
-          <img src="assets/kaskar-fleet-service.png" alt="Kaskar Car Rental actual fleet lineup" loading="lazy">
+          <img src="./assets/images/fleet-service.jpg" alt="Kaskar Car Rental fleet" loading="lazy" />
         </div>
-        <div class="why-copy reveal">
-          <span class="eyebrow">Why choose us</span>
-          <h2>A local rental experience that feels clear, safe and professional.</h2>
-          <ul class="reason-list">
-            <li><strong>Local Chiplun Business</strong><span>Easy to reach and understand your travel needs.</span></li>
-            <li><strong>Transparent Pricing</strong><span>No confusing process before booking.</span></li>
-            <li><strong>Flexible Rental Plans</strong><span>Daily, local, wedding and outstation options.</span></li>
-            <li><strong>Well Maintained Cars</strong><span>Clean vehicles prepared for every customer.</span></li>
-            <li><strong>Easy Booking</strong><span>Quick online form and fast confirmation.</span></li>
-            <li><strong>Fast Support</strong><span>Call or WhatsApp whenever you need help.</span></li>
+
+        <div class="why-content reveal">
+          <p class="eyebrow">Why Choose Us</p>
+          <h2>A local Chiplun car rental business you can trust.</h2>
+
+          <ul>
+            <li><strong>Local Chiplun Business</strong><span>Easy to contact and reliable for local customers.</span></li>
+            <li><strong>Transparent Communication</strong><span>Clear details before confirming the booking.</span></li>
+            <li><strong>Well Maintained Cars</strong><span>Vehicles are kept clean and ready for travel.</span></li>
+            <li><strong>Self Drive Available</strong><span>Drive at your own pace with comfort and privacy.</span></li>
+            <li><strong>Wedding & Daily Service</strong><span>Useful for functions, trips and Chiplun-Mumbai route.</span></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="contact section-pad" id="contact">
+    <section class="section contact" id="contact">
       <div class="container">
         <div class="contact-card reveal">
           <div>
-            <span class="eyebrow">Contact Kaskar</span>
-            <h2>Ready to check car availability?</h2>
-            <p>Location: <strong>Chiplun, Maharashtra</strong></p>
-            <p>Phone: <strong>+91 8007295486</strong></p>
+            <p class="eyebrow">Contact</p>
+            <h2>Check car availability today.</h2>
+            <p><strong>Location:</strong> Pag Kaskar Ali, Chiplun</p>
+            <p><strong>Phone:</strong> 8007295486 / 7758900406</p>
           </div>
+
           <div class="contact-actions">
-            <a class="btn btn-primary" href="tel:+918007295486">Call</a>
-            <a class="btn btn-secondary" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="btn btn-secondary" href="https://www.instagram.com/kaskar_car_rental_chiplun/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn-red" href="tel:+918007295486">Call</a>
+            <a class="btn btn-outline" href="https://wa.me/918007295486" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/kaskar_car_rental_chiplun/" target="_blank" rel="noopener">Instagram</a>
             <a class="btn btn-dark" href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
           </div>
         </div>
@@ -321,22 +235,43 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <a href="#home" class="brand footer-brand"><span class="brand-mark">K</span><span><strong>Kaskar</strong><small>Car Rental</small></span></a>
-        <p>Self-drive automatic and manual cars for Chiplun, local travel and outstation trips.</p>
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-icon">K</span>
+          <span><strong>Kaskar</strong><small>Car Rental</small></span>
+        </a>
+        <p>Self-drive cars, wedding cars and daily travel support in Chiplun.</p>
       </div>
-      <div><h3>Quick Links</h3><a href="#cars">Cars</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
-      <div><h3>Services</h3><a href="#services">Self Drive Rental</a><a href="#services">Wedding Cars</a><a href="#services">Outstation Trips</a><a href="#services">Business Travel</a></div>
-      <div><h3>Instagram</h3><a href="https://www.instagram.com/kaskar_car_rental_chiplun/" target="_blank" rel="noopener">@kaskar_car_rental_chiplun</a></div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#fleet">Cars</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <a href="#services">Self Drive</a>
+        <a href="#services">Wedding Cars</a>
+        <a href="#services">Daily Service</a>
+      </div>
+
+      <div>
+        <h3>Instagram</h3>
+        <a href="https://www.instagram.com/kaskar_car_rental_chiplun/" target="_blank" rel="noopener">@kaskar_car_rental_chiplun</a>
+      </div>
     </div>
+
     <div class="container footer-bottom">© <span id="year"></span> Kaskar Car Rental. All rights reserved.</div>
   </footer>
 
-  <div class="bottom-bar" aria-label="Quick booking actions">
-    <a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
-    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
+  <div class="bottom-bar">
     <a href="tel:+918007295486">Call</a>
+    <a href="https://wa.me/918007295486" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://drivelog-5341e--payment-upgrade-v1-6n2m7mih.web.app/book-now">Check Availability</a>
   </div>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
